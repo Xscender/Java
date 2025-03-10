@@ -24,11 +24,11 @@ public class WhileSwitch {
 			
 			case 1:
 				System.out.print("예금액> ");
-				balance += Integer.parseInt(sc.nextLine());
+				balance += Integer.parseInt(sc.nextLine()); // 입력된 금액 balance에 추가
 				break;
 			case 2:
 				System.out.print("출금액> ");
-				balance -= Integer.parseInt(sc.nextLine());
+				balance -= Integer.parseInt(sc.nextLine()); // 입력된 금액 balance에서 차감
 				break;
 			case 3:
 				System.out.print("잔고> ");
