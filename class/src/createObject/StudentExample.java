@@ -1,4 +1,4 @@
-package CreateObject;
+package createObject;
 
 public class StudentExample { // --> 실행용 클래스
 
